@@ -38,15 +38,20 @@ This is a Twitter Clone project built using the MERN stack (MongoDB, Express.js,
 
 2. Install Dependencies:
 
-cd backend
-npm install
+   ```bash
+   cd backend
+   npm install
+
+   ```
 
 3. Create a .env file for the backend with the following variables:
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+    ```bash
+    PORT=5000
+    MONGO_URI=your_mongodb_connection_string
+    JWT_SECRET=your_secret_key
 
+    ```
 4. Start the development servers:
 
 Backend:
