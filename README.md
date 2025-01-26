@@ -54,21 +54,29 @@ This is a Twitter Clone project built using the MERN stack (MongoDB, Express.js,
     ```
 4. Start the development servers:
 
-Backend:
+    Backend:
 
-cd backend
-npm start
+    ```bash
+    cd ./backend
+    npm run dev
 
-Frontend:
+    ```
+    
+    Frontend:
 
-cd ../frontend
-npm start
+    ```bash
+    cd ./frontend
+    npm run dev
+
+    ```
 
 5. Open the app in your browser at http://localhost:3000.
 
 ## Folder Structure
 
+```bash
 twitter-clone/
 ├── backend/ # Node.js and Express.js server
 ├── frontend/ # React.js frontend
 └── README.md # Project documentation
+```
